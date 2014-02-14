@@ -398,7 +398,7 @@
         <xref target="RFC6455"/> frame has the masking mechanism for two purposes.
         <list style="symbols">
           <t>
-            To prevent a misbehavior of transparent proxies.
+            To prevent request forgery leading to cache injection of transparent proxies.
           </t>
           <t>
             To prevent TLS side-channel attacks such as <xref target="BEAST"/>.
